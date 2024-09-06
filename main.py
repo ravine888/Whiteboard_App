@@ -1,3 +1,19 @@
+def main():
+    root = tk.Tk()
+    root.title("Whiteboard")
+    root.geometry("1000x2000")
+
+    # Create class instance
+    Whiteboard(root)
+
+    # Tkinter event loop to make GUI responsive and interactive
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    main()
+
+'''
 import tkinter as tk
 
 # class function for easier inheiritance
@@ -69,7 +85,7 @@ def main():
     # Initialize the Tkinter application
     root = tk.Tk()
     root.title("Whiteboard")
-    root.geometry("800x600")
+    root.geometry("1000x1000")
 
     # Create class instance
     Whiteboard(root)
@@ -80,3 +96,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
