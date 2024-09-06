@@ -21,7 +21,6 @@ class Whiteboard:
         self.prev_y = 0
         self.color = "white"
         self.line_width = 5
-        self.smooth = 0.75
 
         # call class function
         self.mouse_event()
